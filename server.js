@@ -21,7 +21,7 @@ io.on('connection', (socket) => {
     console.log('👤 User Connected:', socket.id);
 });
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3456;
 app.use(express.json({ limit: '50mb' }));
 
 // --- CẤU HÌNH ---
